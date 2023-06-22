@@ -1,7 +1,15 @@
+.amount {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .create-amount {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     padding: 20px;
     background-color: #f8f9fa;

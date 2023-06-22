@@ -43,40 +43,45 @@ function CreateAmount() {
     };
 
     return (
-        <div className="create-amount">
-            <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    placeholder="Container Name (e.g., Cup)"
-                    value={amountName}
-                    onChange={e => setAmountName(e.target.value)}
-                    required
-                />
-                <input
-                    type="number"
-                    placeholder="Amount (e.g., 100)"
-                    value={amountml}
-                    onChange={e => setAmountML(e.target.value)}
-                    required
-                />
-                <button type="submit">Save Amount</button>
-            </form>
+        <div className="amount">
+            <h1>Amounts</h1>
+            <h4>Add amounts by Container type and size (ml) and see a list of all added amounts</h4>
+            <div className="create-amount">
+                <form onSubmit={handleSubmit}>
+                    <input
+                        type="text"
+                        placeholder="Container Name (e.g., Cup)"
+                        value={amountName}
+                        onChange={e => setAmountName(e.target.value)}
+                        required
+                    />
+                    <input
+                        type="number"
+                        placeholder="Amount (e.g., 100)"
+                        value={amountml}
+                        onChange={e => setAmountML(e.target.value)}
+                        required
+                    />
+                    <button type="submit">Save Amount</button>
+                </form>
 
-            <div className="amounts-list">
-                <h2>Existing Amounts</h2>
-                {amounts.length === 0 ? (
-                    <p>No amounts found.</p>
-                ) : (
-                    <ul>
-                        {amounts.map(amount => (
-                            <li key={amount.id}>
-                                <p>{amount.amountName} - {amount.amountml} ml</p>
-                            </li>
-                        ))}
-                    </ul>
-                )}
+                <div className="amounts-list">
+                    <h2>Existing Amounts</h2>
+                    {amounts.length === 0 ? (
+                        <p>No amounts found.</p>
+                    ) : (
+                        <ul>
+                            {amounts.map(amount => (
+                                <li key={amount.id}>
+                                    <p>{amount.amountName} - {amount.amountml} ml</p>
+                                </li>
+                            ))}
+                        </ul>
+                    )}
+                </div>
             </div>
         </div>
+
     );
 }
 

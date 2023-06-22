@@ -30,6 +30,8 @@ function Profile() {
 
     return (
         <div className="user-profile">
+            <h1>Profile</h1>
+            <h4>Set name and Daily Goal for liquid Intake</h4>
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"

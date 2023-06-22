@@ -12,22 +12,26 @@ function IntakeList() {
     }, []);
 
     return (
-        <div className="intake-list">
+        <div className="view">
             <h2>All Intakes</h2>
-            {intakes.length === 0 ? (
-                <p>No intakes found.</p>
-            ) : (
-                <ul>
-                    {intakes.map(intake => (
-                        <li key={intake.id}>
-                            <p>Date: {intake.date}</p>
-                            <p>Time: {intake.time}</p>
-                            <p>Amount: {intake.amountName} ({intake.amountml} ml)</p>
-                            <p>Type: {intake.type}</p>
-                        </li>
-                    ))}
-                </ul>
-            )}
+            <h4>A list of all logged liquids</h4>
+            <div className="intake-list">
+                {intakes.length === 0 ? (
+                    <p>No intakes found.</p>
+                ) : (
+                    <ul>
+                        {intakes.map(intake => (
+                            <li key={intake.id}>
+                                <p>Date: {intake.date}</p>
+                                <p>Time: {intake.time}</p>
+                                <p>Amount: {intake.amountName} ({intake.amountml} ml)</p>
+                                <p>Type: {intake.type}</p>
+                            </li>
+                        ))}
+                    </ul>
+                )}
+            </div>
+
         </div>
     );
 }

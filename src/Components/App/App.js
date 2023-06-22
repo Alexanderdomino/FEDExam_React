@@ -7,10 +7,12 @@ import Navbar from "../NavBar/NavBar";
 import CreateAmount from "../CreateAmount/CreateAmount";
 import LogLiquid from "../LogLiquid/LogLiquid";
 import IntakeList from "../IntakeList/IntakeList";
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
       <Router>
+          <h1 className={"App-Header"}>Liquid Logger</h1>
           <Navbar />
               <Routes>
                   <Route path="/profile" element={<Profile />} />
@@ -19,6 +21,7 @@ function App() {
                   <Route path="/list" element={<IntakeList />} />
                   <Route path="/" element={<Profile />} />
               </Routes>
+          <Footer />
       </Router>
   );
 }

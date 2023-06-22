@@ -44,6 +44,8 @@ function LogLiquid() {
 
     return (
         <div className="log-liquid">
+            <h1>Log Liquids</h1>
+            <h4>Select Amount to be added and type of liquid</h4>
             <form onSubmit={handleSubmit}>
                 <select value={selectedAmount} onChange={e => setSelectedAmount(e.target.value)} required>
                     <option value="">-- Select an Amount --</option>
