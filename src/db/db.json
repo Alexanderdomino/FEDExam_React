@@ -19,6 +19,11 @@
       "amountName": "Bottle",
       "amountml": "500",
       "id": 4
+    },
+    {
+      "amountName": "Blancdåse",
+      "amountml": "500",
+      "id": 5
     }
   ],
   "profile": {
@@ -41,6 +46,14 @@
       "amountml": 200,
       "type": "Water",
       "id": 2
+    },
+    {
+      "date": "22.6.2023",
+      "time": "20:44",
+      "amountName": "Bottle",
+      "amountml": 500,
+      "type": "Juice",
+      "id": 3
     }
   ]
 }

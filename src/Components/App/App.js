@@ -6,6 +6,7 @@ import Profile from '../Profile/Profile'
 import Navbar from "../NavBar/NavBar";
 import CreateAmount from "../CreateAmount/CreateAmount";
 import LogLiquid from "../LogLiquid/LogLiquid";
+import IntakeList from "../IntakeList/IntakeList";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
                   <Route path="/profile" element={<Profile />} />
                   <Route path="/amount" element={<CreateAmount />} />
                   <Route path="/log" element={<LogLiquid />} />
+                  <Route path="/list" element={<IntakeList />} />
                   <Route path="/" element={<Profile />} />
               </Routes>
       </Router>
