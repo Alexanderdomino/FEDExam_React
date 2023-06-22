@@ -39,7 +39,7 @@ function Profile() {
                 />
                 <input
                     type="number"
-                    placeholder="Daily Goal"
+                    placeholder="Daily Goal in ml (e.g. 2000)"
                     value={dailyFluidAmount}
                     onChange={e => setDailyFluidAmount(e.target.value)}
                 />

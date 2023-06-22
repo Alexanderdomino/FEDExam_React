@@ -27,8 +27,8 @@
     }
   ],
   "profile": {
-    "name": "Alexander",
-    "dailyFluidAmount": "3000"
+    "name": "Muddi Fra Bæst",
+    "dailyFluidAmount": "4000"
   },
   "intakes": [
     {
@@ -54,6 +54,14 @@
       "amountml": 500,
       "type": "Juice",
       "id": 3
+    },
+    {
+      "date": "23.6.2023",
+      "time": "0:44",
+      "amountName": "Large Bottle",
+      "amountml": 1000,
+      "type": "Juice",
+      "id": 4
     }
   ]
 }
