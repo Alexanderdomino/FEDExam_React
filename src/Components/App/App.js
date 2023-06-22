@@ -5,6 +5,7 @@ import './App.css';
 import Profile from '../Profile/Profile'
 import Navbar from "../NavBar/NavBar";
 import CreateAmount from "../CreateAmount/CreateAmount";
+import LogLiquid from "../LogLiquid/LogLiquid";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
               <Routes>
                   <Route path="/profile" element={<Profile />} />
                   <Route path="/amount" element={<CreateAmount />} />
+                  <Route path="/log" element={<LogLiquid />} />
                   <Route path="/" element={<Profile />} />
               </Routes>
       </Router>

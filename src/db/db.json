@@ -1,0 +1,46 @@
+{
+  "amounts": [
+    {
+      "amountName": "Cup",
+      "amountml": "100",
+      "id": 1
+    },
+    {
+      "amountName": "Glass",
+      "amountml": "200",
+      "id": 2
+    },
+    {
+      "container": "Bottle",
+      "amount": "500",
+      "id": 3
+    },
+    {
+      "amountName": "Bottle",
+      "amountml": "500",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "Alexander Domino",
+    "dailyFluidAmount": "2000"
+  },
+  "intakes": [
+    {
+      "date": "15.6.2023",
+      "time": "13:20",
+      "amountName": "Glass",
+      "amountml": 200,
+      "type": "Juice",
+      "id": 1
+    },
+    {
+      "date": "15.6.2023",
+      "time": "18:32",
+      "amountName": "Glas",
+      "amountml": 200,
+      "type": "Water",
+      "id": 2
+    }
+  ]
+}

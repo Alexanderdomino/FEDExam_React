@@ -1,0 +1,35 @@
+.log-liquid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.log-liquid form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+.log-liquid select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.log-liquid button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.log-liquid button:hover {
+    background-color: #0056b3;
+}
