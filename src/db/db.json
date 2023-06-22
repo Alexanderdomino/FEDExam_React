@@ -11,24 +11,14 @@
       "id": 2
     },
     {
-      "container": "Bottle",
-      "amount": "500",
-      "id": 3
-    },
-    {
       "amountName": "Bottle",
       "amountml": "500",
       "id": 4
-    },
-    {
-      "amountName": "Blancdåse",
-      "amountml": "500",
-      "id": 5
     }
   ],
   "profile": {
-    "name": "Alexander Domino",
-    "dailyFluidAmount": "2000"
+    "name": "Alexander",
+    "dailyFluidAmount": "3000"
   },
   "intakes": [
     {
@@ -42,7 +32,7 @@
     {
       "date": "15.6.2023",
       "time": "18:32",
-      "amountName": "Glas",
+      "amountName": "Glass",
       "amountml": 200,
       "type": "Water",
       "id": 2
