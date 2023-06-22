@@ -5,7 +5,7 @@ function LogLiquid() {
     const [selectedAmount, setSelectedAmount] = useState('');
     const [selectedLiquidType, setSelectedLiquidType] = useState('');
     const [amounts, setAmounts] = useState([]);
-    const [liquidTypes] = useState(["Water", "Juice", "Milk", "Coffee", "Other"]);
+    const [liquidTypes] = useState(["Water", "Juice", "Milk", "Coffee", "Jacobsen IPA", "Other"]);
 
     useEffect(() => {
         fetch('http://localhost:3001/amounts')
