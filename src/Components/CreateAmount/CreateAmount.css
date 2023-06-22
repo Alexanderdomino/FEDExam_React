@@ -1,16 +1,24 @@
 .create-amount {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
     background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .create-amount form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 45%;
     gap: 20px;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
 }
 
 .create-amount input {
@@ -32,4 +40,48 @@
 
 .create-amount button:hover {
     background-color: #0056b3;
+}
+
+.create-amount .amounts-list {
+    width: 45%;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.create-amount h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.create-amount ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.create-amount li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.create-amount li:hover {
+    background-color: #e0e0e0;
+}
+
+.create-amount li p {
+    margin: 0;
+}
+
+.create-amount li p:first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.create-amount li p:last-child {
+    font-size: 14px;
+    color: #777;
 }

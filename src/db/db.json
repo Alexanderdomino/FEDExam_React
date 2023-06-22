@@ -14,6 +14,16 @@
       "amountName": "Bottle",
       "amountml": "500",
       "id": 4
+    },
+    {
+      "amountName": "Jug",
+      "amountml": "300",
+      "id": 5
+    },
+    {
+      "amountName": "Large Bottle",
+      "amountml": "1000",
+      "id": 6
     }
   ],
   "profile": {
