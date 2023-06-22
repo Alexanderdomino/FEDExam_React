@@ -24,11 +24,16 @@
       "amountName": "Large Bottle",
       "amountml": "1000",
       "id": 6
+    },
+    {
+      "amountName": "Shot",
+      "amountml": "20",
+      "id": 7
     }
   ],
   "profile": {
-    "name": "Muddi Fra Bæst",
-    "dailyFluidAmount": "4000"
+    "name": "Alexander",
+    "dailyFluidAmount": "2000"
   },
   "intakes": [
     {
@@ -62,6 +67,14 @@
       "amountml": 1000,
       "type": "Juice",
       "id": 4
+    },
+    {
+      "date": "23.6.2023",
+      "time": "1:51",
+      "amountName": "Shot",
+      "amountml": 20,
+      "type": "Jacobsen IPA",
+      "id": 5
     }
   ]
 }

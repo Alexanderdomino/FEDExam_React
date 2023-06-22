@@ -57,7 +57,7 @@ function CreateAmount() {
                     />
                     <input
                         type="number"
-                        placeholder="Amount (e.g., 100)"
+                        placeholder="Amount ml (e.g., 100)"
                         value={amountml}
                         onChange={e => setAmountML(e.target.value)}
                         required
